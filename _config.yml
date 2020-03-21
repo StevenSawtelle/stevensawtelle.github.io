@@ -1,0 +1,24 @@
+# Site settings
+title:
+email:
+description: > # this means to ignore newlines until "baseurl:"
+  Personal site of Steven Sawtelle, student at Arizona State university,
+  Software Engineering in training.
+baseurl: 
+
+# User setting
+owner: Steven Sawtelle
+email: steven.sawtelle@gmail.com
+facebook_username:
+twitter_username: StevenSawtelle
+github_username: StevenSawtelle
+address:
+  - line:
+  - line:
+  # Feel free to add more lines here 
+
+# API settings
+google_api_key:
+
+# Build settings
+markdown: kramdown
