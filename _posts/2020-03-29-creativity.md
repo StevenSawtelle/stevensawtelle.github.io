@@ -7,7 +7,7 @@ permalink: /blog/creativity
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
 		<meta property="og:description" content="Personal perfolio website of Steven Sawtelle">
-		<meta property="og:site_name" content="Online Playable Version of Creativity" />
+		<meta property="og:site_name" content="Crossword Puzzle: Creativity" />
 		<title>Creativity - Steven Sawtelle</title>
 		<link rel="stylesheet" type="text/css" href="../../../css/style.css">
 		<link rel="stylesheet" type="text/css" href="../../../css/animate.css">
