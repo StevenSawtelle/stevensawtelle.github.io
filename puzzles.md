@@ -19,7 +19,7 @@ title: Puzzles
         <a href="/crosswords" class="nav">Crosswords I've Made</a>
     </li>
     <li>
-        <a href="/sudokus" class="nav">Sudokus I've Generated</a>
+        <a href="/sudokus" class="nav">Sudokus I've Generated(not super exciting)</a>
     </li>
     <li>
         <a href="/sudoku" class="nav">Sudokube (Heavy WIP)</a>
