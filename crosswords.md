@@ -18,4 +18,7 @@ title: Crosswords
     <li>
         <a href="/crosswords/Hello,World!.pdf">Hello, World!</a>
     </li>
+    <li>
+        <a href=“/crosswords/creativity.html”>Creativity</a>
+    </li>
 </ul>
