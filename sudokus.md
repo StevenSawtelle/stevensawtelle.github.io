@@ -1,5 +1,5 @@
 ---
-title: Puzzles
+title: Sudokus
 ---
 
 <head>
@@ -7,7 +7,7 @@ title: Puzzles
 		<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
 		<meta property="og:description" content="Personal perfolio website of Steven Sawtelle">
 		<meta property="og:site_name" content="Steven Sawtelle" />
-		<title>Steven Sawtelle - Puzzles</title>
+		<title>Steven Sawtelle - Sudokus</title>
 		<link rel="stylesheet" type="text/css" href="../css/style.css">
 		<link rel="stylesheet" type="text/css" href="../css/animate.css">
 </head>
@@ -16,12 +16,6 @@ title: Puzzles
 
 <ul>
     <li>
-        <a href="/crosswords" class="nav">Crosswords I've Made</a>
-    </li>
-    <li>
-        <a href="/sudokus" class="nav">Sudokus I've Generated</a>
-    </li>
-    <li>
-        <a href="/sudoku" class="nav">Sudokube (Heavy WIP)</a>
+        <a href="/sudokus/hello sudoku.html">Hello Sudoku</a>
     </li>
 </ul>
