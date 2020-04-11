@@ -16,6 +16,6 @@ title: Sudokus
 
 <ul>
     <li>
-        <a href="/sudokus/hello sudoku.html">Hello Sudoku</a>
+        <a href="/sudokus/hellosudoku.html">Hello Sudoku</a>
     </li>
 </ul>
