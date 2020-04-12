@@ -10,7 +10,6 @@ permalink: /blog/starting-a-blog
 		<meta property="og:site_name" content="Starting a Blog" />
 		<title>Starting a Blog - Steven Sawtelle</title>
 		<link rel="stylesheet" type="text/css" href="../../../css/style.css">
-		<link rel="stylesheet" type="text/css" href="../../../css/animate.css">
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-137815317-1"></script>
 		<script>

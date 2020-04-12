@@ -9,13 +9,12 @@ title: Sudokus
 		<meta property="og:site_name" content="Steven Sawtelle" />
 		<title>Steven Sawtelle - Sudokus</title>
 		<link rel="stylesheet" type="text/css" href="../css/style.css">
-		<link rel="stylesheet" type="text/css" href="../css/animate.css">
 </head>
 
 # <center>{{ page.title }}</center>
 
 <ul>
     <li>
-        <a href="/sudokus/hellosudoku.html">Hello Sudoku</a>
+        <a href="/puzzles/sudokus/hellosudoku.html">Hello Sudoku</a>
     </li>
 </ul>

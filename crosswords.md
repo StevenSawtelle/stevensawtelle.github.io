@@ -9,16 +9,15 @@ title: Crosswords
 		<meta property="og:site_name" content="Steven Sawtelle" />
 		<title>Steven Sawtelle - Crosswords</title>
 		<link rel="stylesheet" type="text/css" href="../css/style.css">
-		<link rel="stylesheet" type="text/css" href="../css/animate.css">
 </head>
 
 # <center>{{ page.title }}</center>
 
 <ul>
     <li>
-        <a href="/crosswords/helloworld.html">Hello, World!</a>
+        <a href="/puzzles/crosswords/helloworld.html">Hello, World!</a>
     </li>
     <li>
-        <a href="/crosswords/creativity.html">Creativity</a>
+        <a href="/puzzles/crosswords/creativity.html">Creativity</a>
     </li>
 </ul>

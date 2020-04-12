@@ -9,7 +9,6 @@ title: Sudokube
 		<meta property="og:site_name" content="Steven Sawtelle" />
 		<title>Steven Sawtelle - Sudokube</title>
 		<link rel="stylesheet" type="text/css" href="../css/style.css">
-		<link rel="stylesheet" type="text/css" href="../css/animate.css">
 </head>
 
 <script src="./puzzles/sudoku/sudoku_generate.js" type="module"></script>

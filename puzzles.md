@@ -9,7 +9,6 @@ title: Puzzles
 		<meta property="og:site_name" content="Steven Sawtelle" />
 		<title>Steven Sawtelle - Puzzles</title>
 		<link rel="stylesheet" type="text/css" href="../css/style.css">
-		<link rel="stylesheet" type="text/css" href="../css/animate.css">
 </head>
 
 # <center>{{ page.title }}</center>
@@ -20,8 +19,5 @@ title: Puzzles
     </li>
     <li>
         <a href="/sudokus" class="nav">Sudokus I've Generated(not super exciting)</a>
-    </li>
-    <li>
-        <a href="/sudoku" class="nav">Sudokube (Heavy WIP)</a>
     </li>
 </ul>
