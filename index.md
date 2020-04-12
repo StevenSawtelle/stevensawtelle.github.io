@@ -44,10 +44,16 @@ layout: default
 		</center>
 
 	<div class="contact" id="contact">
-				<h1>Contact Me!</h1>
+	    <center>
+				<h2>Contact Me!</h2>
 				<a href="https://twitter.com/StevenSawtelle">Twitter</a>
+				|
 				<a href="https://www.linkedin.com/in/steven-sawtelle">LinkedIn</a>
+				|
 				<a href="https://github.com/stevensawtelle">GitHub</a>
+				|
 				<a href="mailto:steven.sawtelle@gmail.com" target="_blank">Email</a>
+				|
 				<a href="StevenSawtelleResume.pdf" target="_blank">Resume</a>
+		</center>
 	</div>
