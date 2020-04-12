@@ -27,7 +27,6 @@ layout: default
 	<div class="about" id="about">
 	<center>
 		<h1>Steven Sawtelle</h1>
-		<!-- <h2>Arizona State University Class of 2019</h2> -->
 			<p>
                 <a href="/blog" class="nav">Check out my Blog!</a> or 
                 <a href="/puzzles" class="nav">Play some puzzles I made!</a>
@@ -43,57 +42,12 @@ layout: default
 				<p>Finally, this site is open source! Check it out <a class="linked" rel="nofollow" href="https://github.com/StevenSawtelle/stevensawtelle.github.io" alt="site_source">here</a>, and let me know if there's things I could do better - I'm new to this whole front end world.</p>
 		</div>
 		</center>
-				<!-- <div class="about1">
-					<img class="gradhat" src="images/asu.png" alt="Education">
-					<p class="foo wow bounceInLeft" data-wow-duration="2s">Bachelor of Science in Computer Science</p>
-					<p class="wow bounceInLeft" data-wow-duration="2s"><i class="fa fa-university"></i>
-					Arizona State University</p>
-					<p class="wow bounceInLeft" data-wow-duration="2s"><i class="fa fa-calendar "></i> August 2015 - May 2019</p>
-					<img class="gradhat" src="images/nus.png" alt="Education">
-					<p class="foo wow bounceInLeft" data-wow-delay=".1s" data-wow-duration="2s">University Exchange Program</p>
-					<p class="wow bounceInLeft" data-wow-delay=".1s" data-wow-duration="2s"><i class="fa fa-university"></i>
-					National University of Singapore</p>
-					<p class="wow bounceInLeft" data-wow-delay=".1s" data-wow-duration="2s"><i class="fa fa-calendar "></i> Fall 2017</p>
-				</div> -->
-				<!--
-				<div class="about2">
-				<center>
-                        <img src="images/bry2.jpg" class="img-rounded" alt="steven profile" style="margin:0px;width:128px;height:145px;">
-                	</center>
-				</div>-->
-					<!-- <center><div class="center-button wow">
-					<a class="resume-link" href="StevenSawtelleResume.pdf" download>
-						<button class="button button2">
-							<span><i class="fa fa-download faa-vertical animated faa-slow"></i> Download My Resumé</span>
-						</button>
-					</a>
-					</div>
-					</center> -->
-	<!-- END OF about -->
+
 	<div class="contact" id="contact">
-			<div class="wow bounceInLeft" data-wow-duration="2s">
-				<a class="contact-icons" href="https://www.facebook.com/steven.sawtelle.3" title="Steven Sawtelle Facebook">
-					<i class="fa fa-facebook fa-3x faa-vertical animated-hover" aria-hidden="true"></i>
-				</a>
-				<a class="contact-icons" href="https://twitter.com/StevenSawtelle" title="Steven Sawtelle Twitter">
-					<i class="fa fa-twitter fa-3x faa-vertical animated-hover" aria-hidden="true"></i>
-				</a>
-				<a class="contact-icons" href="https://www.linkedin.com/in/steven-sawtelle" title="Steven Sawtelle LinkedIn">
-					<i class="fa fa-linkedin fa-3x faa-vertical animated-hover" aria-hidden="true"></i>
-				</a>
-			</div>
-			<div>
-				<h1 class="contact-white">Contact Me</h1>
-			</div>
-			<div class="wow bounceInLeft" data-wow-duration="2s">
-				<a class="contact-icons" href="https://github.com/stevensawtelle" title="Steven Sawtelle GitHub">
-					<i class="fa fa-github fa-3x faa-vertical animated-hover" aria-hidden="true"></i>
-				</a>
-				<a class="contact-icons" href="mailto:steven.sawtelle@gmail.com" target="_blank" title="Steven Sawtelle Email">
-					<i class="fa fa-envelope fa-3x faa-vertical animated-hover" aria-hidden="true"></i>
-				</a>
-				<a class="contact-icons" href="StevenSawtelleResume.pdf" target="_blank" title="Steven Sawtelle Resume">
-					<i class="fa fa-file-o fa-3x faa-vertical animated-hover" aria-hidden="true"></i>
-				</a>
-			</div>
-		</div>
+				<h1>Contact Me!</h1>
+				<a href="https://twitter.com/StevenSawtelle">Twitter</a>
+				<a href="https://www.linkedin.com/in/steven-sawtelle">LinkedIn</a>
+				<a href="https://github.com/stevensawtelle">GitHub</a>
+				<a href="mailto:steven.sawtelle@gmail.com" target="_blank">Email</a>
+				<a href="StevenSawtelleResume.pdf" target="_blank">Resume</a>
+	</div>
