@@ -25,7 +25,7 @@ permalink: /blog/hello-crossword
 
 Two of my New Year's Resolutions for 2020 are to write more blogs (at least 5), and arguably more interesting, to create a crossword puzzle interesting and good enough that <i>some</i> publisher puts it out into the world, no matter how small. So this is my first blog post of the year and hopefully the start of my crossword creation journey!
 
-First the puzzle can be found <a href="/crosswords/Hello,World!.pdf">here</a>. If you think you have solved it or just want to see the answers that can be found <a href="/crosswords/Hello,World!SolutionGrid.pdf">here</a>. All I ask is that if you do try it, please, <i>please,</i> email me and let me know what you think of it. I am looking for criticism to get better - I can already tell this is a tough goal! My email is {myfirstname}.{mylastname}@gmail.com. If you get confused look at this site's URL!
+First the puzzle can be found <a href="/puzzles/crosswords/Hello,World!.pdf">here</a>. If you think you have solved it or just want to see the answers that can be found <a href="/crosswords/Hello,World!SolutionGrid.pdf">here</a>. All I ask is that if you do try it, please, <i>please,</i> email me and let me know what you think of it. I am looking for criticism to get better - I can already tell this is a tough goal! My email is {myfirstname}.{mylastname}@gmail.com. If you get confused look at this site's URL!
 
 I have a feeling some people reading this will also be interested in how I created this first one, so I'll write about that here. Beware, though: spoilers for the puzzle will be below! Print it out, try it out, and come back if you want!
 
