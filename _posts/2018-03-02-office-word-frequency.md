@@ -25,78 +25,78 @@ permalink: /blog/office-word-frequency
 Recently I posted this picture:
 
 
-![alt text](/images/office-music-frequency.jpg "Office Music Subtitle Frequency")
+![alt text](/images/office/office-music-frequency.jpg "Office Music Subtitle Frequency")
 
 On my Facebook after manually going through every episode of the office and checking how the captions presented the theme song when it came up, and people really enjoyed it. So I spent a few hours putting together a fun Python script that created bar graphs for each of the mains character's most used words. Without further ado, here are the graphs (with technical discussion after):
 
 
 Michael:
 
-![alt text](/images/Michael.png "Michael")
+![alt text](/images/office/Michael.png "Michael")
 
 Dwight:
 
-![alt text](/images/Dwight.png "Dwight")
+![alt text](/images/office/Dwight.png "Dwight")
 
 Jim:
 
-![alt text](/images/Jim.png "Jim")
+![alt text](/images/office/Jim.png "Jim")
 
 Pam:
 
-![alt text](/images/Pam.png "Pam")
+![alt text](/images/office/Pam.png "Pam")
 
 Andy:
 
-![alt text](/images/Andy.png "Andy")
+![alt text](/images/office/Andy.png "Andy")
 
 Kevin:
 
-![alt text](/images/Kevin.png "Kevin")
+![alt text](/images/office/Kevin.png "Kevin")
 
 Angela:
 
-![alt text](/images/Angela.png "Angela")
+![alt text](/images/office/Angela.png "Angela")
 
 Erin:
 
-![alt text](/images/Erin.png "Erin")
+![alt text](/images/office/Erin.png "Erin")
 
 Oscar:
 
-![alt text](/images/Oscar.png "Oscar")
+![alt text](/images/office/Oscar.png "Oscar")
 
 Darryl:
 
-![alt text](/images/Darryl.png "Darryl")
+![alt text](/images/office/Darryl.png "Darryl")
 
 Ryan:
 
-![alt text](/images/Ryan.png "Ryan")
+![alt text](/images/office/Ryan.png "Ryan")
 
 Phyllis:
 
-![alt text](/images/Phyllis.png "Phyllis")
+![alt text](/images/office/Phyllis.png "Phyllis")
 
 Kelly:
 
-![alt text](/images/Kelly.png "Kelly")
+![alt text](/images/office/Kelly.png "Kelly")
 
 Toby:
 
-![alt text](/images/Toby.png "Toby")
+![alt text](/images/office/Toby.png "Toby")
 
 Stanley:
 
-![alt text](/images/Stanley.png "Stanley")
+![alt text](/images/office/Stanley.png "Stanley")
 
 Meredith:
 
-![alt text](/images/Meredith.png "Meredith")
+![alt text](/images/office/Meredith.png "Meredith")
 
 Creed:
 
-![alt text](/images/Creed.png "Creed")
+![alt text](/images/office/Creed.png "Creed")
 
 
 ## Technical Discussion
