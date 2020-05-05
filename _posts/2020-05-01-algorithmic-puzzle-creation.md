@@ -38,7 +38,7 @@ You can see here that blue (B) <= red (O) <= yellow (Y).
 
 Similarly, this is also valid.
 
-![alt text](/images/algo-puz/boa2.png "Boa cube")
+![alt text](/images/algo-puz/boa.png "Boa cube")
 
 This is to show that <i>where</i> the word starts on the cube doesn't matter, just that it follows the alphabetical properties. For this same reason this would -not- be a valid cube:
 
