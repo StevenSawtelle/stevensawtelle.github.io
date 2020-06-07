@@ -20,4 +20,7 @@ title: Crosswords
     <li>
         <a href="/puzzles/crosswords/creativity.html">Creativity</a>
     </li>
+    <li>
+        <a href="/puzzles/crosswords/kimzeys.html">The Kimzey Family!</a>
+    </li>
 </ul>
