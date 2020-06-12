@@ -15,12 +15,15 @@ title: Crosswords
 
 <ul>
     <li>
-        <a href="/puzzles/crosswords/helloworld.html">Hello, World!</a>
+        <a href="/puzzles/crosswords/helloworld">Hello, World!</a>
     </li>
     <li>
-        <a href="/puzzles/crosswords/creativity.html">Creativity</a>
+        <a href="/puzzles/crosswords/creativity">Creativity</a>
     </li>
     <li>
-        <a href="/puzzles/crosswords/kimzeys.html">The Kimzey Family!</a>
+        <a href="/puzzles/crosswords/kimzeys">The Kimzey Family!</a>
+    </li>
+    <li>
+        <a href="/puzzles/crosswords/cutyourlosses">Cut Your Losses</a>
     </li>
 </ul>
