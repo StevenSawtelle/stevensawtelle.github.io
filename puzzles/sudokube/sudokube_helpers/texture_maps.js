@@ -43,7 +43,7 @@ const givenMap = {'.':"none_unpicked.png",
 					};
 
 var loader = new TextureLoader();
-loader.setPath( './textures/' );
+loader.setPath( './sudokube_helpers/textures/' );
 
 var getMaterialArray = function ( num, cubeType ) {
 	let tex = "";
