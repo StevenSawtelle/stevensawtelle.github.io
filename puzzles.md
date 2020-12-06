@@ -15,9 +15,12 @@ title: Puzzles
 
 <ul>
     <li>
-        <a href="/crosswords" class="nav">Crosswords I've Made</a>
+        <a href="/puzzles/sudokube/sudokube" class="nav">Sudokube(an algorithmically generated 6-sided cube I designed/made where each face is a sudoku puzzle</a>
     </li>
     <li>
-        <a href="/sudokus" class="nav">Sudokus I've Generated(not super exciting)</a>
+        <a href="/puzzles/crosswords" class="nav">Crosswords I've Made</a>
+    </li>
+    <li>
+        <a href="/puzzles/sudokus" class="nav">Sudokus I've Generated</a>
     </li>
 </ul>
