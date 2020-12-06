@@ -15,7 +15,7 @@ title: Puzzles
 
 <ul>
     <li>
-        <a href="/puzzles/sudokube/sudokube" class="nav">Sudokube(an algorithmically generated 6-sided cube I designed/made where each face is a sudoku puzzle</a>
+        <a href="/puzzles/sudokube/sudokube" class="nav">Sudokube(an algorithmically generated 6-sided cube I designed/made where each face is a sudoku puzzle)</a>
     </li>
     <li>
         <a href="/puzzles/crosswords" class="nav">Crosswords I've Made</a>
