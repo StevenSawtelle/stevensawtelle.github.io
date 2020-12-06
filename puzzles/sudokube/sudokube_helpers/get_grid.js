@@ -448,6 +448,7 @@ var getConflicts = function (values) {
 }
 
 var solve = function (grid, options) {
+    // console.log(grid)
     return search(parseGrid(grid), options);
 }
 
@@ -569,11 +570,11 @@ var squareCount = function (difficulty) {
     return 20;
 }
 
-var generate = function (difficulty) {
+var generate = function (difficulty, seed) {
     var start = new Date().getTime();
     var minSquares = squareCount(difficulty || 'easy');
     
-    var fullGrid = solve({});
+    var fullGrid = solve(seed);
     var generatedGrid = copy(fullGrid);
     var shuffledSquares = shuffle(SQUARES);
     var filledSquares = shuffledSquares.length;
@@ -594,10 +595,153 @@ var generate = function (difficulty) {
 
     }
     var time = new Date().getTime() - start;
-    debug('Generated puzzle with ' + keys(generatedGrid).length + ' squares in ' + time + 'ms');
-    let temp = convert(generatedGrid);
-
+    // debug('Generated puzzle with ' + keys(generatedGrid).length + ' squares in ' + time + 'ms');
+    let temp = {};
+    temp.convertedGrid = convert(generatedGrid);
+    temp.fullGrid = fullGrid;
     return temp;
+}
+
+var generateGivenPartialSeed = function (seed) {
+    return generate("easy", seed);
+}
+
+var getKeysStartsWith = function  (baseObj, char) {
+    return Object.keys(baseObj)
+      .filter(key => key.startsWith(char))
+      .reduce((obj, key) => {
+        obj[key] = baseObj[key];
+        return obj;
+      }, {});
+}
+
+var getKeysEndsWith = function  (baseObj, char) {
+    return Object.keys(baseObj)
+      .filter(key => key.endsWith(char))
+      .reduce((obj, key) => {
+        obj[key] = baseObj[key];
+        return obj;
+      }, {});
+}
+
+var convertOneThroughNine = function (key) {
+    switch(key.charAt(1)){
+        case "1":
+            return key.charAt(0) + "9";
+        case "2":
+            return key.charAt(0) + "8";
+        case "3":
+            return key.charAt(0) + "7";
+        case "4":
+            return key.charAt(0) + "6";
+        case "5":
+            return key.charAt(0) + "5";
+        case "6":
+            return key.charAt(0) + "4";
+        case "7":
+            return key.charAt(0) + "3";
+        case "8":
+            return key.charAt(0) + "2";
+        case "9":
+            return key.charAt(0) + "1";
+    }
+}
+
+var convertItoA = function (key) {
+    switch(key.charAt(1)){
+        case "A":
+            return key.charAt(0) + "I";
+        case "B":
+            return key.charAt(0) + "H";
+        case "C":
+            return key.charAt(0) + "G";
+        case "D":
+            return key.charAt(0) + "F";
+        case "E":
+            return key.charAt(0) + "E";
+        case "F":
+            return key.charAt(0) + "D";
+        case "G":
+            return key.charAt(0) + "C";
+        case "H":
+            return key.charAt(0) + "B";
+        case "I":
+            return key.charAt(0) + "A";
+    }
+}
+
+var swapOneThroughNine = function  (baseObj) {
+    // expects A1, A2 ... A9
+    console.log(baseObj)
+    let x = Object.keys(baseObj)
+      .reduce((obj, key) => {
+        obj[key] = baseObj[convertOneThroughNine(key)];
+        return obj;
+      }, {});
+      console.log(x)
+      return x;
+}
+
+var noConflicts = function (baseObj, compObj) {
+    let foundMatch = false;
+    Object.keys(baseObj).forEach(key => {
+        if(baseObj[key] == compObj[key]){
+            foundMatch = true;
+        }
+    })
+    if(!foundMatch){
+
+    console.log(baseObj, compObj)
+    }
+    return !foundMatch;
+}
+
+
+
+var no3x3Errors = function (a1, a2, b1, b2) {
+    return (a1 != b1 && a1 != b2 && a2 != b1 && a2 != b2);
+}
+
+var swapItoA = function  (baseObj) {
+    return Object.keys(baseObj)
+      .reduce((obj, key) => {
+        obj[key] = baseObj[convertItoA(key)];
+        return obj;
+      }, {});
+}
+
+var makeStartWith = function (baseObj, newStart) {
+    //input in the form A9, B9, .... I9 (or A1, B1, ... I1)
+    //we want it to be key1, key2, ... key9
+    // console.log(parseInt("A", 36)); // 10
+    // console.log(parseInt("Z", 36)); // 35
+    let x = Object.keys(baseObj)
+      .reduce((obj, key) => {
+        obj[newStart + (parseInt(key.charAt(0), 36) - 9).toString()] = baseObj[key];
+        return obj;
+      }, {});
+     return x;
+}
+
+var makeStartWithNormal = function (baseObj, newStart) {
+    //input in the form A1, A2, ... A9
+    //we want it to be newStart1, newStart2, ... newStart9
+    let x = Object.keys(baseObj)
+      .reduce((obj, key) => {
+        obj[newStart + key.charAt(1)] = baseObj[key];
+        return obj;
+      }, {});
+     return x;
+}
+
+var makeEndWith = function (baseObj, newEnd) {
+    // simpler - just change out the numbers for this one. we have no need for letter -> numbers in this program! :)
+    let x = Object.keys(baseObj)
+      .reduce((obj, key) => {
+        obj[key.charAt(0) + newEnd] = baseObj[key];
+        return obj;
+      }, {});
+     return x;
 }
 
 function convert(grid){
@@ -705,7 +849,7 @@ var eliminate = function (values, s, d) {
     return values;
 }
 
-export {generate}
+export {generate, generateGivenPartialSeed, getKeysStartsWith, getKeysEndsWith, swapOneThroughNine, swapItoA, makeStartWith, makeStartWithNormal, makeEndWith, noConflicts, no3x3Errors}
 
 // var module = {
 //     solve : solve,

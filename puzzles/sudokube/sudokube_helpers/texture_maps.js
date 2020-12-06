@@ -1,6 +1,7 @@
 // import * as THREE from './three.module.js';
 
 import {
+	Mesh,
 	MeshBasicMaterial,
 	TextureLoader
 } from "./three.module.js";
@@ -29,15 +30,33 @@ const unpickedMap = {'.':"none_unpicked.png",
 					9:"9_unpicked.png",
 					};
 
-var loader = new TextureLoader();
-loader.setPath( './puzzles/textures/' );
+const givenMap = {'.':"none_unpicked.png",
+					1:"1_given.png",
+					2:"2_given.png",
+					3:"3_given.png",
+					4:"4_given.png",
+					5:"5_given.png",
+					6:"6_given.png",
+					7:"7_given.png",
+					8:"8_given.png",
+					9:"9_given.png",
+					};
 
-var getMaterialArray = function ( num, isPicked ) {
+var loader = new TextureLoader();
+loader.setPath( './sudokube/textures/' );
+
+var getMaterialArray = function ( num, cubeType ) {
 	let tex = "";
-	if(isPicked){
-		tex = pickedMap[num];
-	}else{
-		tex = unpickedMap[num];
+	switch(cubeType){
+		case "given":
+			tex = givenMap[num];
+			break;
+		case "picked":
+			tex = pickedMap[num];
+			break;
+		case "unpicked":
+			tex = unpickedMap[num];
+			break;
 	}
 	return [
 		    new MeshBasicMaterial( { map: loader.load(tex) } ),
@@ -49,4 +68,8 @@ var getMaterialArray = function ( num, isPicked ) {
 		];
 }
 
-export { getMaterialArray };
+var getCenterMaterialArray = function () {
+	return new MeshBasicMaterial( { map: loader.load("center_cube.png") } );
+}
+
+export { getMaterialArray, getCenterMaterialArray };
