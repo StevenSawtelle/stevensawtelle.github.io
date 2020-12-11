@@ -21,7 +21,7 @@ layout: default
 		</script>
 
 </head>
-
+ 
 <body>
 	<!-- about -->
 	<div class="about" id="about">
