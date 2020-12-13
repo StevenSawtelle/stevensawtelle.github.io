@@ -925,7 +925,6 @@ function onWindowResize() {
 var clickedObject = null;
 
 function onClick(event){
-  event.preventDefault();
   //unselect recent if applicable
   if(clickedObject){
   	let materialArray = getMaterialArray(clickedObject.val, "unpicked");
