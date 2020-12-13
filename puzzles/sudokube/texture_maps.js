@@ -58,6 +58,11 @@ var getMaterialArray = function ( num, cubeType ) {
 			tex = unpickedMap[num];
 			break;
 	}
+	if(tex === undefined){
+		console.log(tex)
+		console.log(num)
+		console.log(cubeType)
+	}
 	return [
 		    new MeshBasicMaterial( { map: loader.load(tex) } ),
 		    new MeshBasicMaterial( { map: loader.load(tex) } ),
