@@ -755,9 +755,9 @@ animate();
 //render(); // remove when using next line for animation loop (requestAnimationFrame)
 function init() {
 	renderer = new THREE.WebGLRenderer( { antialias: true } );
-			renderer.setPixelRatio( window.devicePixelRatio );
-			renderer.setSize( window.innerWidth, window.innerHeight );
-			document.body.appendChild( renderer.domElement );
+  renderer.setPixelRatio( window.devicePixelRatio );
+  renderer.setSize( window.innerWidth, window.innerHeight );
+  document.body.appendChild( renderer.domElement );
 	scene = new THREE.Scene();
 	scene.background = new THREE.Color( 0xa8d0e6 );
 	camera = new THREE.PerspectiveCamera( 60, window.innerWidth / window.innerHeight, 1, 1000 );
@@ -768,9 +768,9 @@ function init() {
 	controls = new OrbitControls( camera, renderer.domElement );
 	controls.enableRotate = true;
 	//controls.addEventListener( 'change', render ); // call this only in static scenes (i.e., if there is no animation loop)
-	// controls.enableDamping = true; // an animation loop is required when either damping or auto-rotation are enabled
-	// controls.dampingFactor = 0.05;
-	// controls.screenSpacePanning = false;
+	controls.enableDamping = true; // an animation loop is required when either damping or auto-rotation are enabled
+	controls.dampingFactor = 0.05;
+	controls.screenSpacePanning = false;
 	controls.minDistance = 300;
 	controls.maxDistance = 850;
 	// controls.maxPolarAngle = Math.PI ;
@@ -954,9 +954,15 @@ function onTouchEnd(event) {
 }
 
 function animate() {
-	renderer.render( scene, camera );
-	requestAnimationFrame( animate );
+  requestAnimationFrame( animate );
+  controls.update();
+  render();
 }
+
+function render(){
+	renderer.render( scene, camera );
+}
+
 
 // function onMouseMove( event ) {
 // 	event.preventDefault();
