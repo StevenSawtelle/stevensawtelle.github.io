@@ -11,16 +11,10 @@ title: Puzzles
 		<link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 
-# <center>{{ page.title }}</center>
+<center>
 
-<ul>
-    <li>
-        <a href="/puzzles/sudokube" class="nav">Sudokube(an algorithmically generated 6-sided cube I designed/made where each face is a sudoku puzzle)</a>
-    </li>
-    <li>
-        <a href="/puzzles/crosswords" class="nav">Crosswords I've Made</a>
-    </li>
-    <li>
-        <a href="/puzzles/sudokus" class="nav">Sudokus I've Generated</a>
-    </li>
-</ul>
+<p><a href="/puzzles/sudokube" class="nav">Sudokube(an algorithmically generated 6-sided cube I designed/made where each face is a sudoku puzzle)</a></p>
+<p><a href="/puzzles/crosswords" class="nav">Crosswords I've Made</a></p>
+<p><a href="/puzzles/sudokus" class="nav">Sudokus I've Generated</a></p>
+
+</center>
