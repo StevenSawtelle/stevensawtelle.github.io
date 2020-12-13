@@ -25,7 +25,7 @@ permalink: /blog/utterances-enabled
 
 
 <script src="https://utteranc.es/client.js"
-        repo="https://github.com/StevenSawtelle/stevensawtelle.github.io"
+        repo="https://github.com/StevenSawtelle/stevensawtelle.github.io.git"
         issue-term="pathname"
         theme="github-dark-orange"
         crossorigin="anonymous"
