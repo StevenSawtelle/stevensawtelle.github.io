@@ -821,10 +821,6 @@ function init() {
           cube.position.z = off_z;
           // cube.material.color.setHex( 0xffffff );
 
-          off_x += cube_size;
-          if(j % 3 == 0){
-            off_x += extra_offset;
-          }
           // if(i % 9 == 0){
           // 	off_x = -90;
           // 	off_z += 21;
@@ -832,9 +828,13 @@ function init() {
 
           // cube.updateMatrix();
           // cube.matrixAutoUpdate = false;
-            cubes.add(cube);
+          cubes.add(cube);
         
           // scene.add( cubes );
+        }
+        off_x += cube_size;
+        if(j % 3 == 0){
+          off_x += extra_offset;
         }
 			}
 			if(i % 3 == 0){
@@ -925,7 +925,6 @@ function onWindowResize() {
 var clickedObject = null;
 
 function onClick(event){
-  console.log(event)
   event.preventDefault();
   //unselect recent if applicable
   if(clickedObject){
@@ -991,7 +990,7 @@ function getIntersects( x, y ) {
 }
 
 function isValidCube(depth, i, j) {
-	return depth === 1 ||
+	return depth == 1 ||
     depth === 9 ||
 		i === 1 ||
 		i === 9 ||
