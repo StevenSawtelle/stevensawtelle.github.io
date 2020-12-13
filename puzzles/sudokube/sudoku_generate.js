@@ -802,39 +802,40 @@ function init() {
 	for(var depth=1; depth <= 9; depth++){
 		for ( var i = 1; i <= 9; i ++ ) {
 			for(var j = 1; j <= 9; j++){
+        
+        if(isValidCube(depth, i, j)){
 
-				let curVal = getVal(i,j,depth);
-        let isStarterVal = curVal != ".";
-				let materialArray = getMaterialArray(curVal, "given");
-				var geometry = new THREE.CubeGeometry( cube_size,cube_size,cube_size );
-        var cube = new THREE.Mesh( geometry, materialArray );
-        cube.row = i;
-				cube.col = j;
-				cube.depth = depth;
-        cube.val = curVal;
-        cube.isStarterVal = isStarterVal;
+          let curVal = getVal(i,j,depth);
+          let isStarterVal = curVal != ".";
+          let materialArray = getMaterialArray(curVal, "given");
+          var geometry = new THREE.CubeGeometry( cube_size,cube_size,cube_size );
+          var cube = new THREE.Mesh( geometry, materialArray );
+          cube.row = i;
+          cube.col = j;
+          cube.depth = depth;
+          cube.val = curVal;
+          cube.isStarterVal = isStarterVal;
 
-				cube.position.x = off_x;
-				cube.position.y = off_y;
-				cube.position.z = off_z;
-				// cube.material.color.setHex( 0xffffff );
+          cube.position.x = off_x;
+          cube.position.y = off_y;
+          cube.position.z = off_z;
+          // cube.material.color.setHex( 0xffffff );
 
-				off_x += cube_size;
-				if(j % 3 == 0){
-					off_x += extra_offset;
-				}
-				// if(i % 9 == 0){
-				// 	off_x = -90;
-				// 	off_z += 21;
-				// }
+          off_x += cube_size;
+          if(j % 3 == 0){
+            off_x += extra_offset;
+          }
+          // if(i % 9 == 0){
+          // 	off_x = -90;
+          // 	off_z += 21;
+          // }
 
-				// cube.updateMatrix();
-				// cube.matrixAutoUpdate = false;
-				if(isValidCube(cube)){
-					cubes.add(cube);
-				}
-				// scene.add( cubes );
-
+          // cube.updateMatrix();
+          // cube.matrixAutoUpdate = false;
+            cubes.add(cube);
+        
+          // scene.add( cubes );
+        }
 			}
 			if(i % 3 == 0){
 				off_z += extra_offset;
@@ -883,7 +884,8 @@ function getVal(row, col, depth){
 		//top left
 		return rightGrid[9-depth][9-row];
 	}
-	//default
+  //default
+  console.log(row + " " + col + " " + depth)
 	return -1;//error
 }
 
@@ -988,11 +990,11 @@ function getIntersects( x, y ) {
 	return raycaster.intersectObject( cubes, true );
 }
 
-function isValidCube(cube) {
-	return cube.row === 1 ||
-		cube.row === 9 ||
-		cube.col === 1 ||
-		cube.col === 9 ||
-		cube.depth === 1 ||
-		cube.depth === 9;
+function isValidCube(depth, i, j) {
+	return depth === 1 ||
+    depth === 9 ||
+		i === 1 ||
+		i === 9 ||
+		j === 1 ||
+		j === 9;
 }
