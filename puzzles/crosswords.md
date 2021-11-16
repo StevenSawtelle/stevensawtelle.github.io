@@ -26,4 +26,7 @@ title: Crosswords
     <li>
         <a href="/puzzles/crosswords/cutyourlosses">Cut Your Losses</a>
     </li>
+    <li>
+        <a href="/puzzles/crosswords/retirement">Happy Retirement Dad!</a>
+    </li>
 </ul>
