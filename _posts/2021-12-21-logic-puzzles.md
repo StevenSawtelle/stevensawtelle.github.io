@@ -23,16 +23,21 @@ permalink: /blog/logic-puzzles
 
 <body>
 
-<div class="content" style="width: 100%, margin: 0 auto">
+<div class="content" style="width: 95%;margin: 0 auto">
 <h2><i>Intro to Programming Should Just Be Logic Puzzles</i></h2>
+
+<p>Ask a programmer what language they think that a newcomer’s first programming class should be taught in and you’ll have nearly as many different answers as there are programming languages. The reality is that we’re still not that good at knowing how to teach people how to code. Python gets out of your way and reads almost like English, while Java has more industry adoption and forces you to learn types. The legendary Edsger Dijkstra once wrote a plea to the budget council (https://www.cs.utexas.edu/users/EWD/transcriptions/OtherDocs/Haskell.html) on why Haskell should be kept over Java, which he viewed a “mess”. In it, he made one important point that I want to focus on here:</p>
+
+<p>“It is not only the violin that shapes the violinist, we are all shaped by the tools we train ourselves to use, and in this respect programming languages have a devious influence: they shape our thinking habits."</p>
+
+<p>It is this emphasis on “thinking habits” that almost all of what being a “good” programmer boils down to, in my view. You can spend years learning to code, but if you have a fundamentally poor set of tackling new problems, you will still find yourself ineffective. This fact is what has driven the highly controversial rise of Leetcode-style interviews, where toy problems are given to candidates in an attempt to suss out in one hour their fundamental ability to solve problems.</p>
 
 <p>With how clear it is that having your brain set up to tackle problems effectively is important, I find it incorrect to argue Haskell vs Java or C++ vs Python. Instead, I propose that we start programmers out with no programming at all, and instead give them logic puzzles as their intro.</p>
 
 
 <p>While not limited to only Japanese creators, the name “Japanese logic puzzle” is commonly used for a specific type of grid-based puzzle that tickle the brain in almost the exact way that a good programming problem does. While I won’t go into detail on it here, a really solid example I would give for this type of puzzle is one called Slitherlink (https://en.wikipedia.org/wiki/Slitherlink). Popularized by the same company that brought sudoku to the masses, Slitherlink is a relatively simple game: create one contiguous loop that fills a board with all of the numbered squares adjacent to the corresponding number of line segments of the loop. It takes less than 10 minutes to explain the rules an go through an example.</p>
 
-<p>See 
-<a class="linked" rel="nofollow" href="https://www.conceptispuzzles.com/index.aspx?uri=puzzle/slitherlink" alt="slitherlink rules">here</a> for the rules and <a class="linked" rel="nofollow" href="https://www.conceptispuzzles.com/index.aspx?uri=puzzle/slitherlink/techniques" alt="slitherlink techniques">here</a> for some strategies to start solving puzzles. <a class="linked" rel="nofollow" href="https://www.brainbashers.com/showslitherlink.asp" alt="slitherlink">Play the puzzle directly online here!</a></p>
+<p>See <a class="linked" rel="nofollow" href="https://www.conceptispuzzles.com/index.aspx?uri=puzzle/slitherlink" alt="slitherlink rules">here</a> for the rules and <a class="linked" rel="nofollow" href="https://www.conceptispuzzles.com/index.aspx?uri=puzzle/slitherlink/techniques" alt="slitherlink techniques">here</a> for some strategies to start solving puzzles. <a class="linked" rel="nofollow" href="https://www.brainbashers.com/showslitherlink.asp" alt="slitherlink">Play the puzzle directly online here!</a></p>
 
 <p>While it may seem to just be a game at first glance, any programmer who does the puzzle will find themselves feeling almost as if they are programming. One part of the puzzle forms, another part of the puzzle forms, you synthesize your mental model of how different parts interact, and the lines blur on whether you’re solving a Slitherlink or optimizing a sorting algorithm. When I do a Slitherlink, the corners of my brain that are satisfyingly itched are identical to what happens I solve a good coding section at work.</p>
 
