@@ -1,23 +1,33 @@
+---
+---
+
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap');
 
 h1 {
     font-family: 'Baloo Paaji 2', cursive;
+    /* background-color: rgba(255,255,255,.7); */
 }
 
 h2 {
     font-family: 'Baloo Paaji 2', cursive;
+    /* background-color: rgba(255,255,255,.7); */
 }
 
 h3 {
     font-family: 'Baloo Paaji 2', cursive;
+    /* background-color: rgba(255,255,255,.7); */
 }
 
 p {
     font-family: 'Baloo Paaji 2', cursive;
+    /* background-color: rgba(255,255,255,.7); */
 }
 
 body {
-    background-color: #A8D0E6;
+    background-image: url('{{ site.baseurl }}/css/background.svg');
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    background-size: 100vw 100vh;
     margin: auto;
     width: 95%;
 }
