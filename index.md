@@ -29,7 +29,7 @@ layout: default
 	
 	<h1>Steven Sawtelle</h1>
 		
-	<p><a href="/puzzles" class="nav">Play some puzzles I made!</a></p>
+	<p><a href="/puzzles" class="nav">Play some games/puzzles I made!</a></p>
 	<p><a href="/blog" class="nav">Check out my Blog!</a></p>
 	<p><a href="/about" class="nav">Learn About Me</a></p>
 	
