@@ -1,5 +1,6 @@
 ---
 title: Crosswords
+layout: simpler
 ---
 
 <head>
@@ -13,20 +14,20 @@ title: Crosswords
 
 # <center>{{ page.title }}</center>
 
-<ul>
+<ul style="text-align: center;">
     <li>
-        <a href="/puzzles/crosswords/helloworld">Hello, World!</a>
+        <span class="highlight-container"><span class="highlight"><a href="/puzzles/crosswords/helloworld">Hello, World!</a></span></span>
     </li>
     <li>
-        <a href="/puzzles/crosswords/creativity">Creativity</a>
+        <span class="highlight-container"><span class="highlight"><a href="/puzzles/crosswords/creativity">Creativity</a></span></span>
     </li>
     <li>
-        <a href="/puzzles/crosswords/kimzeys">The Kimzey Family!</a>
+        <span class="highlight-container"><span class="highlight"><a href="/puzzles/crosswords/kimzeys">The Kimzey Family!</a></span></span>
     </li>
     <li>
-        <a href="/puzzles/crosswords/cutyourlosses">Cut Your Losses</a>
+        <span class="highlight-container"><span class="highlight"><a href="/puzzles/crosswords/cutyourlosses">Cut Your Losses</a></span></span>
     </li>
     <li>
-        <a href="/puzzles/crosswords/retirement">Happy Retirement Dad!</a>
+        <span class="highlight-container"><span class="highlight"><a href="/puzzles/crosswords/retirement">Happy Retirement Dad!</a></span></span>
     </li>
 </ul>

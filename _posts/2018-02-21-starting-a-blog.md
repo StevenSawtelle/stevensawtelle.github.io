@@ -23,4 +23,5 @@ permalink: /blog/starting-a-blog
 
 <center><b><h1>Starting a Blog</h1></b></center>
 
+
 I've wanted to blog for a while, so here it is! This will be a freeform place for random thoughts I want to log and think other people might be interested in. I already have a bunch of ideas, so I look forward to exploring them here - hopefully you read something you find useful!

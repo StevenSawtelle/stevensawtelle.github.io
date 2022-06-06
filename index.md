@@ -1,6 +1,6 @@
 ---
 title: Steven Sawtelle
-layout: default
+layout: simpler
 ---
 
 <head>
@@ -29,23 +29,27 @@ layout: default
 	
 	<h1>Steven Sawtelle</h1>
 		
-	<p><a href="/puzzles" class="nav">Play some games/puzzles I made!</a></p>
-	<p><a href="/blog" class="nav">Check out my Blog!</a></p>
-	<p><a href="/about" class="nav">Learn About Me</a></p>
+	<div><span class="highlight-container"><span class="highlight"><p><a href="/puzzles" class="nav">Play some games/puzzles I made!</a></p></span></span></div>
+	<div><span class="highlight-container"><span class="highlight"><p><a href="/blog" class="nav">Check out my Blog!</a></p></span></span></div>
+	<div><span class="highlight-container"><span class="highlight"><p><a href="/about" class="nav">Learn About Me</a></p></span></span></div>
 	
     </center>
     
 	<div class="contact" id="contact">
 	    <center>
 				<h2>Contact Me!</h2>
-				<a href="https://twitter.com/StevenSawtelle">Twitter</a>
-				|
-				<a href="https://www.linkedin.com/in/steven-sawtelle">LinkedIn</a>
-				|
-				<a href="https://github.com/stevensawtelle">GitHub</a>
-				|
-				<a href="mailto:steven.sawtelle@gmail.com" target="_blank">Email</a>
-				|
-				<a href="StevenSawtelleResume.pdf" target="_blank">Resume</a>
+				<div>
+				<span class="highlight-container"><span class="highlight">
+					<a href="https://twitter.com/StevenSawtelle">Twitter</a>
+					|
+					<a href="https://www.linkedin.com/in/steven-sawtelle">LinkedIn</a>
+					|
+					<a href="https://github.com/stevensawtelle">GitHub</a>
+					|
+					<a href="mailto:steven.sawtelle@gmail.com" target="_blank">Email</a>
+					|
+					<a href="StevenSawtelleResume.pdf" target="_blank">Resume</a>
+				</span></span>
+				</div>
 		</center>
 	</div>

@@ -1,5 +1,6 @@
 ---
 title: Steven Sawtelle's Blog
+layout: simpler
 ---
 
 <head>
@@ -13,10 +14,11 @@ title: Steven Sawtelle's Blog
 
 # <center>{{ page.title }}</center>
 
-<ul>
+<ul style="text-align: center;">
   {% for post in site.posts %}
-    <li>
+    <div><span class="highlight-container"><span class="highlight">
+	<li style="padding: 15px;">
       {{ post.date | date_to_long_string }} - <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
+    </li></span></span></div>
   {% endfor %}
 </ul>

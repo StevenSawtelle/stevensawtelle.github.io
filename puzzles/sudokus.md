@@ -1,5 +1,6 @@
 ---
 title: Sudokus
+layout: simpler
 ---
 
 <head>
@@ -13,8 +14,8 @@ title: Sudokus
 
 # <center>{{ page.title }}</center>
 
-<ul>
+<ul style="text-align: center;">
     <li>
-        <a href="/puzzles/sudokus/hellosudoku.html">Hello Sudoku</a>
+        <span class="highlight-container"><span class="highlight"><a href="/puzzles/sudokus/hellosudoku.html">Hello Sudoku</a></span></span>
     </li>
 </ul>
