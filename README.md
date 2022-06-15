@@ -9,3 +9,7 @@ Build:
 Deploy:
 
 Pushing to Github master branch should auto deploy the Github pages site
+
+Background CSS animation found at https://codepen.io/ksenia-k/pen/jXbWaJ
+
+Text highlight found at https://alvarotrigo.com/blog/css-highlight-text/
