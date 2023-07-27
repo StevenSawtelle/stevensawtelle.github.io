@@ -10,16 +10,7 @@ layout: simpler
 		<meta property="og:site_name" content="Steven Sawtelle" />
 		<title>Steven Sawtelle</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-137815317-1"></script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
-
-		  gtag('config', 'UA-137815317-1');
-		</script>
-
+        <script src="js/script.js"></script>
 </head>
  
 <body>
@@ -28,7 +19,12 @@ layout: simpler
 	<center>
 	
 	<h1>Steven Sawtelle</h1>
-		
+    <div class="container">
+        <div class="image-container" id="imageContainer">
+            <img src="images/main_char.jpg" alt="Main Character">
+        </div>
+    </div>
+
 	<div><span class="highlight-container"><span class="highlight"><p><a href="/puzzles" class="nav">Play some games/puzzles I made!</a></p></span></span></div>
 	<div><span class="highlight-container"><span class="highlight"><p><a href="/blog" class="nav">Check out my Blog!</a></p></span></span></div>
 	<div><span class="highlight-container"><span class="highlight"><p><a href="/about" class="nav">Learn About Me</a></p></span></span></div>

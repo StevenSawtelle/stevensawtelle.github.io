@@ -3,7 +3,7 @@ Repository for site (hosted on GitHub Pages) for Steven Sawtelle, found at www.s
 Build:
 
 `sudo gem install jekyll bundler`
-
+`bundle install`
 `bundle exec jekyll serve`
 
 Deploy:

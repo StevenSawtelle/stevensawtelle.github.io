@@ -100,3 +100,12 @@ body {
     border-radius: 20% 25% 20% 24%;
     padding: 10px 3px 3px 10px;
   }
+
+.container {
+    text-align: center;
+}
+
+.image-container {
+    display: none;
+    margin-top: 20px;
+}
