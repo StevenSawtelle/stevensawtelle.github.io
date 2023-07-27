@@ -1,4 +1,6 @@
 let inputString = ""; // Variable to store the user's typed string
+let tapCount = 0; // Variable to keep track of tap count
+let lastTapTime = 0; // Variable to store the timestamp of the last tap
 
 document.addEventListener("keyup", function (event) {
     // Get the key that was pressed
@@ -24,5 +26,24 @@ document.addEventListener("keyup", function (event) {
             const imageContainer = document.getElementById("imageContainer");
             imageContainer.style.display = "none";
         }
+    }
+});
+
+document.addEventListener("touchstart", function (event) {
+    const currentTime = new Date().getTime();
+
+    // Check if the time between the last tap and the current tap is within 10 seconds
+    if (currentTime - lastTapTime < 10000) {
+        tapCount++;
+    } else {
+        tapCount = 1;
+    }
+
+    lastTapTime = currentTime;
+
+    // Check if the user tapped the screen 20 times within 10 seconds
+    if (tapCount >= 20) {
+        const imageContainer = document.getElementById("imageContainer");
+        imageContainer.style.display = "block";
     }
 });
