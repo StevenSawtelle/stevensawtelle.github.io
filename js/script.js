@@ -19,7 +19,7 @@ document.addEventListener("keyup", function (event) {
         }
 
         // Check if the stored string contains "chloe"
-        if (inputString === "chloe") {
+        if (inputString === "hello") {
             const imageContainer = document.getElementById("imageContainer");
             imageContainer.style.display = "block";
         } else {

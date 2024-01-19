@@ -36,8 +36,6 @@ layout: simpler
 				<h2>Contact Me!</h2>
 				<div>
 				<span class="highlight-container"><span class="highlight">
-					<a href="https://twitter.com/StevenSawtelle">Twitter</a>
-					|
 					<a href="https://www.linkedin.com/in/steven-sawtelle">LinkedIn</a>
 					|
 					<a href="https://github.com/stevensawtelle">GitHub</a>
