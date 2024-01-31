@@ -16,9 +16,9 @@ layout: simpler
 
 <h1>Steven Sawtelle</h1>
 
-<div><span class="highlight-container"><span class="highlight"><p><a href="/puzzles/politicle/index" class="nav">Politicle</a>: A <a href="https://www.nytimes.com/games/wordle/index.html" class="nav">Wordle</a>-inspired game where you guess the US Senator's state (made as a Valentine's gift for my then partner)</p></span></span></div>
+<div><span class="highlight-container"><span class="highlight"><p><a href="/puzzles/politicle" class="nav">Politicle</a>: A <a href="https://www.nytimes.com/games/wordle/index.html" class="nav">Wordle</a>-inspired game where you guess the US Senator's state (made as a Valentine's gift for my then partner)</p></span></span></div>
 
-<div><span class="highlight-container"><span class="highlight"><p><a href="/puzzles/kimzeyle/index" class="nav">Kimzeyle</a>: Another <a href="https://www.nytimes.com/games/wordle/index.html" class="nav">Wordle</a>-inspired game I made for my grandparent's 60th anniversary where you guess their grandchild</p></span></span></div>
+<div><span class="highlight-container"><span class="highlight"><p><a href="/puzzles/kimzeyle" class="nav">Kimzeyle</a>: Another <a href="https://www.nytimes.com/games/wordle/index.html" class="nav">Wordle</a>-inspired game I made for my grandparent's 60th anniversary where you guess their grandchild</p></span></span></div>
 
 <div><span class="highlight-container"><span class="highlight"><p><a href="/puzzles/sudokube" class="nav">Sudokube(an algorithmically generated 6-sided cube I designed/made where each face is a sudoku puzzle)</a></p></span></span></div>
 
