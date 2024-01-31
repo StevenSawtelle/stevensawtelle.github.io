@@ -8,7 +8,6 @@ permalink: /blog/gazelle-hunt
 		<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
 		<meta property="og:site_name" content="Gazelle Hunt" />
 		<title>Gazelle Hunt - Steven Sawtelle</title>
-        <script data-goatcounter="https://stevensawtelle.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 
 <center><b><h1>Short Story: Gazelle Hunt</h1></b></center>

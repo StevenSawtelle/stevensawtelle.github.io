@@ -6,19 +6,9 @@ permalink: /blog/one-small-bite
 <head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta property="og:description" content="Personal perfolio website of Steven Sawtelle">
 		<meta property="og:site_name" content="One Small Bite" />
 		<title>One Small Bite - Steven Sawtelle</title>
-		<link rel="stylesheet" type="text/css" href="../../../css/style.css">
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-137815317-1"></script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
-
-		  gtag('config', 'UA-137815317-1');
-		</script>
-
 </head>
 
 <center><b><h1>Short Story: One Small Bite</h1></b></center>

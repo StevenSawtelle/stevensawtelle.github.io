@@ -9,8 +9,6 @@ permalink: /blog/starting-a-blog
 		<meta property="og:description" content="Personal perfolio website of Steven Sawtelle">
 		<meta property="og:site_name" content="Starting a Blog" />
 		<title>Starting a Blog - Steven Sawtelle</title>
-		<link rel="stylesheet" type="text/css" href="../../../css/style.css">
-        <script data-goatcounter="https://stevensawtelle.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 
 <center><b><h1>Starting a Blog</h1></b></center>

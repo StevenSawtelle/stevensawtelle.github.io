@@ -1,8 +1,15 @@
 ---
-layout: default
 title: Intro to Programming should just be logic puzzles
+layout: default
 permalink: /blog/logic-puzzles
 ---
+<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta property="og:description" content="Personal perfolio website of Steven Sawtelle">
+		<meta property="og:site_name" content="Intro to Programming should just be logic puzzles" />
+		<title>Intro to Programming should just be logic puzzles - Steven Sawtelle</title>
+</head>
 
 # Intro to Programming Should Just Be Logic Puzzles
 

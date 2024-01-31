@@ -9,8 +9,6 @@ permalink: /blog/tech-culture
 		<meta property="og:description" content="Personal perfolio website of Steven Sawtelle">
 		<meta property="og:site_name" content="A Particular Aspect of Tech Culture" />
 		<title>A Particular Aspect of Tech Culture - Steven Sawtelle</title>
-		<link rel="stylesheet" type="text/css" href="../../../css/style.css">
-        <script data-goatcounter="https://stevensawtelle.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 
 <center><b><h1>A Particular Aspect of Tech Culture</h1></b></center>

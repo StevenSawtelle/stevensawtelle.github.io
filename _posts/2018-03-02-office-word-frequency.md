@@ -8,8 +8,6 @@ permalink: /blog/office-word-frequency
 		<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
 		<meta property="og:site_name" content="The Office Character Word Frequency" />
 		<title>The Office Character Word Frequency - Steven Sawtelle</title>
-		<link rel="stylesheet" type="text/css" href="../../../css/style.css">
-        <script data-goatcounter="https://stevensawtelle.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 
 <center><b><h1>The Office Character Word Frequency</h1></b></center>

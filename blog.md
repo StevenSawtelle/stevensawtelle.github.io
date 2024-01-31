@@ -10,6 +10,7 @@ layout: simpler
 		<meta property="og:site_name" content="Steven Sawtelle" />
 		<title>Steven Sawtelle</title>
 		<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<script data-goatcounter="https://stevensawtelle.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 
 # <center>{{ page.title }}</center>

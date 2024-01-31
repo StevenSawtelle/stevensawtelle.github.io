@@ -9,8 +9,6 @@ permalink: /blog/trump-america
 		<meta property="og:description" content="Personal perfolio website of Steven Sawtelle">
 		<meta property="og:site_name" content="Trump's America" />
 		<title>Trump's America - Steven Sawtelle</title>
-		<link rel="stylesheet" type="text/css" href="../../../css/style.css">
-        <script data-goatcounter="https://stevensawtelle.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 
 <center><b><h1>Trump's America</h1></b></center>
