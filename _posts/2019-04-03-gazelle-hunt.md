@@ -8,17 +8,7 @@ permalink: /blog/gazelle-hunt
 		<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
 		<meta property="og:site_name" content="Gazelle Hunt" />
 		<title>Gazelle Hunt - Steven Sawtelle</title>
-		<link rel="stylesheet" type="text/css" href="../../../css/style.css">
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-137815317-1"></script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
-
-		  gtag('config', 'UA-137815317-1');
-		</script>
-
+        <script data-goatcounter="https://stevensawtelle.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 
 <center><b><h1>Short Story: Gazelle Hunt</h1></b></center>

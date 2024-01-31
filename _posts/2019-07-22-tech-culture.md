@@ -10,15 +10,7 @@ permalink: /blog/tech-culture
 		<meta property="og:site_name" content="A Particular Aspect of Tech Culture" />
 		<title>A Particular Aspect of Tech Culture - Steven Sawtelle</title>
 		<link rel="stylesheet" type="text/css" href="../../../css/style.css">
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-137815317-1"></script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
-
-		  gtag('config', 'UA-137815317-1');
-		</script>
+        <script data-goatcounter="https://stevensawtelle.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 
 <center><b><h1>A Particular Aspect of Tech Culture</h1></b></center>
