@@ -39,6 +39,12 @@ li {
     border-radius: 10px;
 }
 
+.text-block-minus-color {
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Baloo Paaji 2', cursive;
+}
+
 body {
     background-image: url('{{ site.baseurl }}/css/background.svg');
     /* background-repeat: no-repeat;
