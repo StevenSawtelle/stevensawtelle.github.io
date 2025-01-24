@@ -34,7 +34,7 @@ li {
 .text-block {
     text-align: center;
     margin: 0 auto;
-    background-color: rgba(255,255,255,.7);
+    background-color: rgba(255,255,255,.8);
     font-family: 'Baloo Paaji 2', cursive;
     border-radius: 10px;
 }
