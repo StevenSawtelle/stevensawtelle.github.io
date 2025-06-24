@@ -33,7 +33,7 @@ layout: simpler
                     |
                     <a href="mailto:steven.sawtelle@gmail.com" target="_blank">Email</a>
                     |
-                    <a href="StevenSawtelleResume.pdf" target="_blank">Resume</a>
+                    <a href="StevenSawtelleResume2025.pdf" target="_blank">Resume</a>
                 </span>
             </span>
         </div>
